@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BookerAPISuite" class="navigator-link">
+              <span class="suite-name border-failed">BookerAPISuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BookerAPISuite" class="navigator-link ">
+                    <span>C:\Users\kandr\eclipse-workspace2\API_Assignment_Dicetek_Intigral_Harikrishna_Kandra\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BookerAPISuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BookerAPISuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BookerAPISuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BookerAPISuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BookerAPISuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BookerAPISuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BookerAPISuite" class="hide-methods failed suite-BookerAPISuite"> (hide)</a> <!-- hide-methods failed suite-BookerAPISuite -->
+                      <a href="#" panel-name="suite-BookerAPISuite" class="show-methods failed suite-BookerAPISuite"> (show)</a> <!-- show-methods failed suite-BookerAPISuite -->
+                    </span>
+                    <div class="method-list-content failed suite-BookerAPISuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateAddItemResponseTime">validateAddItemResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BookerAPISuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BookerAPISuite" class="hide-methods passed suite-BookerAPISuite"> (hide)</a> <!-- hide-methods passed suite-BookerAPISuite -->
+                      <a href="#" panel-name="suite-BookerAPISuite" class="show-methods passed suite-BookerAPISuite"> (show)</a> <!-- show-methods passed suite-BookerAPISuite -->
+                    </span>
+                    <div class="method-list-content passed suite-BookerAPISuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="testCreateBooking">testCreateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="testGetBooking">testGetBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateAddItemStatusCode">validateAddItemStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateBookingDatesFormat">validateBookingDatesFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateContentTypeHeader">validateContentTypeHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateReadItemResponseTime">validateReadItemResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateReadItemStatusCode">validateReadItemStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validateResponseBodyFields">validateResponseBodyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validatereadContentType">validatereadContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validatereadItemDateFormat">validatereadItemDateFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerPositiveTests" class="method navigator-link" hash-for-method="validatereadItesmBookingFields">validatereadItesmBookingFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests" class="method navigator-link" hash-for-method="validatetestGetBookingWithInvalidId">validatetestGetBookingWithInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests" class="method navigator-link" hash-for-method="validatetestInvalidDateFormat">validatetestInvalidDateFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests" class="method navigator-link" hash-for-method="validatetestInvalidPriceDataType">validatetestInvalidPriceDataType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests" class="method navigator-link" hash-for-method="validatetestMissingBookingDates">validatetestMissingBookingDates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests" class="method navigator-link" hash-for-method="validatetestMissingFirstname">validatetestMissingFirstname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests1" class="method navigator-link" hash-for-method="validatetestNegativeScenarios(invalidCheckinFormat, John, Doe, 100, true, 01-01-2023, 2023-01-10)">validatetestNegativeScenarios(invalidCheckinFormat, John, Doe, 100, true, 01-01-2023, 2023-01-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests1" class="method navigator-link" hash-for-method="validatetestNegativeScenarios(missingFirstname, , Doe, 100, true, 2023-01-01, 2023-01-10)">validatetestNegativeScenarios(missingFirstname, , Doe, 100, true, 2023-01-01, 2023-01-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests1" class="method navigator-link" hash-for-method="validatetestNegativeScenarios(invalidPrice, John, Doe, invalid, true, 2023-01-01, 2023-01-10)">validatetestNegativeScenarios(invalidPrice, John, Doe, invalid, true, 2023-01-01, 2023-01-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookerAPISuite" title="api.test.BookerNegativeTests" class="method navigator-link" hash-for-method="validatetestRequestWithoutContentType">validatetestRequestWithoutContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BookerAPISuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BookerAPISuite" class="panel BookerAPISuite">
+          <div class="suite-BookerAPISuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.BookerPositiveTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddItemResponseTime">
+                  </a> <!-- validateAddItemResponseTime -->
+                  <span class="method-name">validateAddItemResponseTime</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response time is too high! expected [true] but found [false]
+	at api.test.BookerPositiveTests.validateAddItemResponseTime(BookerPositiveTests.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BookerAPISuite-class-failed -->
+          <div class="suite-BookerAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.BookerPositiveTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateBooking">
+                  </a> <!-- testCreateBooking -->
+                  <span class="method-name">testCreateBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetBooking">
+                  </a> <!-- testGetBooking -->
+                  <span class="method-name">testGetBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddItemStatusCode">
+                  </a> <!-- validateAddItemStatusCode -->
+                  <span class="method-name">validateAddItemStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBookingDatesFormat">
+                  </a> <!-- validateBookingDatesFormat -->
+                  <span class="method-name">validateBookingDatesFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContentTypeHeader">
+                  </a> <!-- validateContentTypeHeader -->
+                  <span class="method-name">validateContentTypeHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateReadItemResponseTime">
+                  </a> <!-- validateReadItemResponseTime -->
+                  <span class="method-name">validateReadItemResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateReadItemStatusCode">
+                  </a> <!-- validateReadItemStatusCode -->
+                  <span class="method-name">validateReadItemStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBodyFields">
+                  </a> <!-- validateResponseBodyFields -->
+                  <span class="method-name">validateResponseBodyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatereadContentType">
+                  </a> <!-- validatereadContentType -->
+                  <span class="method-name">validatereadContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatereadItemDateFormat">
+                  </a> <!-- validatereadItemDateFormat -->
+                  <span class="method-name">validatereadItemDateFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatereadItesmBookingFields">
+                  </a> <!-- validatereadItesmBookingFields -->
+                  <span class="method-name">validatereadItesmBookingFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BookerAPISuite-class-passed -->
+          <div class="suite-BookerAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.BookerNegativeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestGetBookingWithInvalidId">
+                  </a> <!-- validatetestGetBookingWithInvalidId -->
+                  <span class="method-name">validatetestGetBookingWithInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestInvalidDateFormat">
+                  </a> <!-- validatetestInvalidDateFormat -->
+                  <span class="method-name">validatetestInvalidDateFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestInvalidPriceDataType">
+                  </a> <!-- validatetestInvalidPriceDataType -->
+                  <span class="method-name">validatetestInvalidPriceDataType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestMissingBookingDates">
+                  </a> <!-- validatetestMissingBookingDates -->
+                  <span class="method-name">validatetestMissingBookingDates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestMissingFirstname">
+                  </a> <!-- validatetestMissingFirstname -->
+                  <span class="method-name">validatetestMissingFirstname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestRequestWithoutContentType">
+                  </a> <!-- validatetestRequestWithoutContentType -->
+                  <span class="method-name">validatetestRequestWithoutContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BookerAPISuite-class-passed -->
+          <div class="suite-BookerAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.BookerNegativeTests1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestNegativeScenarios(invalidCheckinFormat, John, Doe, 100, true, 01-01-2023, 2023-01-10)">
+                  </a> <!-- validatetestNegativeScenarios(invalidCheckinFormat, John, Doe, 100, true, 01-01-2023, 2023-01-10) -->
+                  <span class="method-name">validatetestNegativeScenarios</span>
+                  <span class="parameters">(invalidCheckinFormat,John,Doe,100,true,01-01-2023,2023-01-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestNegativeScenarios(missingFirstname, , Doe, 100, true, 2023-01-01, 2023-01-10)">
+                  </a> <!-- validatetestNegativeScenarios(missingFirstname, , Doe, 100, true, 2023-01-01, 2023-01-10) -->
+                  <span class="method-name">validatetestNegativeScenarios</span>
+                  <span class="parameters">(missingFirstname,,Doe,100,true,2023-01-01,2023-01-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatetestNegativeScenarios(invalidPrice, John, Doe, invalid, true, 2023-01-01, 2023-01-10)">
+                  </a> <!-- validatetestNegativeScenarios(invalidPrice, John, Doe, invalid, true, 2023-01-01, 2023-01-10) -->
+                  <span class="method-name">validatetestNegativeScenarios</span>
+                  <span class="parameters">(invalidPrice,John,Doe,invalid,true,2023-01-01,2023-01-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BookerAPISuite-class-passed -->
+        </div> <!-- panel BookerAPISuite -->
+        <div panel-name="test-xml-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kandr\eclipse-workspace2\API_Assignment_Dicetek_Intigral_Harikrishna_Kandra\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BookerAPISuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BookerAPITest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.BookerPositiveTests&quot;/&gt;
+      &lt;class name=&quot;api.test.BookerNegativeTests&quot;/&gt;
+      &lt;class name=&quot;api.test.BookerNegativeTests1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookerAPITest --&gt;
+&lt;/suite&gt; &lt;!-- BookerAPISuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BookerAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BookerAPITest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BookerAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BookerAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BookerAPISuite');
+function tableData_BookerAPISuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateBooking')
+data.setCell(0, 2, 'api.test.BookerPositiveTests')
+data.setCell(0, 3, 6439);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetBooking')
+data.setCell(1, 2, 'api.test.BookerPositiveTests')
+data.setCell(1, 3, 1794);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validatetestNegativeScenarios')
+data.setCell(2, 2, 'api.test.BookerNegativeTests1')
+data.setCell(2, 3, 1622);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatetestGetBookingWithInvalidId')
+data.setCell(3, 2, 'api.test.BookerNegativeTests')
+data.setCell(3, 3, 1538);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validatetestNegativeScenarios')
+data.setCell(4, 2, 'api.test.BookerNegativeTests1')
+data.setCell(4, 3, 1480);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validatetestRequestWithoutContentType')
+data.setCell(5, 2, 'api.test.BookerNegativeTests')
+data.setCell(5, 3, 1449);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validatetestMissingFirstname')
+data.setCell(6, 2, 'api.test.BookerNegativeTests')
+data.setCell(6, 3, 1439);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatetestInvalidPriceDataType')
+data.setCell(7, 2, 'api.test.BookerNegativeTests')
+data.setCell(7, 3, 1431);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatetestMissingBookingDates')
+data.setCell(8, 2, 'api.test.BookerNegativeTests')
+data.setCell(8, 3, 1431);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validatetestInvalidDateFormat')
+data.setCell(9, 2, 'api.test.BookerNegativeTests')
+data.setCell(9, 3, 1425);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validatetestNegativeScenarios')
+data.setCell(10, 2, 'api.test.BookerNegativeTests1')
+data.setCell(10, 3, 1380);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateResponseBodyFields')
+data.setCell(11, 2, 'api.test.BookerPositiveTests')
+data.setCell(11, 3, 246);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validatereadItesmBookingFields')
+data.setCell(12, 2, 'api.test.BookerPositiveTests')
+data.setCell(12, 3, 86);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateBookingDatesFormat')
+data.setCell(13, 2, 'api.test.BookerPositiveTests')
+data.setCell(13, 3, 67);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validatereadItemDateFormat')
+data.setCell(14, 2, 'api.test.BookerPositiveTests')
+data.setCell(14, 3, 36);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateAddItemResponseTime')
+data.setCell(15, 2, 'api.test.BookerPositiveTests')
+data.setCell(15, 3, 29);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateAddItemStatusCode')
+data.setCell(16, 2, 'api.test.BookerPositiveTests')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validatereadContentType')
+data.setCell(17, 2, 'api.test.BookerPositiveTests')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateReadItemStatusCode')
+data.setCell(18, 2, 'api.test.BookerPositiveTests')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateContentTypeHeader')
+data.setCell(19, 2, 'api.test.BookerPositiveTests')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateReadItemResponseTime')
+data.setCell(20, 2, 'api.test.BookerPositiveTests')
+data.setCell(20, 3, 0);
+window.suiteTableData['BookerAPISuite']= { tableData: data, tableDiv: 'times-div-BookerAPISuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-BookerAPISuite">
+              </div> <!-- times-div-BookerAPISuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BookerAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BookerAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.BookerPositiveTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateBooking</span>
+                <span class="method-start">690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAddItemStatusCode</span>
+                <span class="method-start">7190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateAddItemResponseTime</span>
+                <span class="method-start">7205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateContentTypeHeader</span>
+                <span class="method-start">7248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBodyFields</span>
+                <span class="method-start">7251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateBookingDatesFormat</span>
+                <span class="method-start">7503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetBooking</span>
+                <span class="method-start">7573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateReadItemStatusCode</span>
+                <span class="method-start">9368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateReadItemResponseTime</span>
+                <span class="method-start">9372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatereadContentType</span>
+                <span class="method-start">9373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatereadItesmBookingFields</span>
+                <span class="method-start">9376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatereadItemDateFormat</span>
+                <span class="method-start">9467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.BookerNegativeTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatetestMissingFirstname</span>
+                <span class="method-start">9505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestInvalidPriceDataType</span>
+                <span class="method-start">10945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestInvalidDateFormat</span>
+                <span class="method-start">12377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestMissingBookingDates</span>
+                <span class="method-start">13802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestGetBookingWithInvalidId</span>
+                <span class="method-start">15234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestRequestWithoutContentType</span>
+                <span class="method-start">16773 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.BookerNegativeTests1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18222 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validatetestNegativeScenarios(missingFirstname, , Doe, 100, true, 2023-01-01, 2023-01-10)</span>
+                <span class="method-start">18230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestNegativeScenarios(invalidPrice, John, Doe, invalid, true, 2023-01-01, 2023-01-10)</span>
+                <span class="method-start">19711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatetestNegativeScenarios(invalidCheckinFormat, John, Doe, 100, true, 01-01-2023, 2023-01-10)</span>
+                <span class="method-start">21091 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

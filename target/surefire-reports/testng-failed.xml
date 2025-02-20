@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookerAPISuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="api.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="BookerAPITest(failed)" verbose="0">
+    <classes>
+      <class name="api.test.BookerPositiveTests">
+        <methods>
+          <include name="testCreateBooking"/>
+          <include name="setUp"/>
+          <include name="validateAddItemResponseTime"/>
+        </methods>
+      </class> <!-- api.test.BookerPositiveTests -->
+    </classes>
+  </test> <!-- BookerAPITest(failed) -->
+</suite> <!-- Failed suite [BookerAPISuite] -->

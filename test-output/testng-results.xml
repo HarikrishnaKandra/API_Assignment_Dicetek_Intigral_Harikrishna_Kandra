@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T21:58:29 IST" name="BookerAPISuite" finished-at="2025-02-20T21:58:51 IST" duration-ms="22740">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T21:58:29 IST" name="BookerAPITest" finished-at="2025-02-20T21:58:51 IST" duration-ms="22740">
+      <class name="api.test.BookerNegativeTests">
+        <test-method signature="validatetestMissingFirstname()[pri:1, instance:api.test.BookerNegativeTests@32cb636e]" started-at="2025-02-20T21:58:38 IST" name="validatetestMissingFirstname" finished-at="2025-02-20T21:58:40 IST" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestMissingFirstname -->
+        <test-method signature="validatetestInvalidPriceDataType()[pri:2, instance:api.test.BookerNegativeTests@32cb636e]" started-at="2025-02-20T21:58:40 IST" name="validatetestInvalidPriceDataType" finished-at="2025-02-20T21:58:41 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestInvalidPriceDataType -->
+        <test-method signature="validatetestInvalidDateFormat()[pri:3, instance:api.test.BookerNegativeTests@32cb636e]" started-at="2025-02-20T21:58:41 IST" name="validatetestInvalidDateFormat" finished-at="2025-02-20T21:58:43 IST" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestInvalidDateFormat -->
+        <test-method signature="validatetestMissingBookingDates()[pri:4, instance:api.test.BookerNegativeTests@32cb636e]" started-at="2025-02-20T21:58:43 IST" name="validatetestMissingBookingDates" finished-at="2025-02-20T21:58:44 IST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestMissingBookingDates -->
+        <test-method signature="validatetestGetBookingWithInvalidId()[pri:5, instance:api.test.BookerNegativeTests@32cb636e]" started-at="2025-02-20T21:58:44 IST" name="validatetestGetBookingWithInvalidId" finished-at="2025-02-20T21:58:46 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestGetBookingWithInvalidId -->
+        <test-method signature="validatetestRequestWithoutContentType()[pri:6, instance:api.test.BookerNegativeTests@32cb636e]" started-at="2025-02-20T21:58:46 IST" name="validatetestRequestWithoutContentType" finished-at="2025-02-20T21:58:47 IST" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestRequestWithoutContentType -->
+      </class> <!-- api.test.BookerNegativeTests -->
+      <class name="api.test.BookerNegativeTests1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.BookerNegativeTests1@63cd604c]" started-at="2025-02-20T21:58:47 IST" name="setup" finished-at="2025-02-20T21:58:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatetestNegativeScenarios(java.lang.String,java.lang.String,java.lang.String,java.lang.Object,boolean,java.lang.String,java.lang.String)[pri:1, instance:api.test.BookerNegativeTests1@63cd604c]" started-at="2025-02-20T21:58:47 IST" name="validatetestNegativeScenarios" data-provider="negativeTestCases" finished-at="2025-02-20T21:58:49 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[missingFirstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-01-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-01-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestNegativeScenarios -->
+        <test-method signature="validatetestNegativeScenarios(java.lang.String,java.lang.String,java.lang.String,java.lang.Object,boolean,java.lang.String,java.lang.String)[pri:1, instance:api.test.BookerNegativeTests1@63cd604c]" started-at="2025-02-20T21:58:49 IST" name="validatetestNegativeScenarios" data-provider="negativeTestCases" finished-at="2025-02-20T21:58:50 IST" duration-ms="1392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidPrice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-01-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-01-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestNegativeScenarios -->
+        <test-method signature="validatetestNegativeScenarios(java.lang.String,java.lang.String,java.lang.String,java.lang.Object,boolean,java.lang.String,java.lang.String)[pri:1, instance:api.test.BookerNegativeTests1@63cd604c]" started-at="2025-02-20T21:58:50 IST" name="validatetestNegativeScenarios" data-provider="negativeTestCases" finished-at="2025-02-20T21:58:51 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidCheckinFormat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01-01-2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-01-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetestNegativeScenarios -->
+      </class> <!-- api.test.BookerNegativeTests1 -->
+      <class name="api.test.BookerPositiveTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:29 IST" name="setUp" finished-at="2025-02-20T21:58:31 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking()[pri:1, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:31 IST" name="testCreateBooking" finished-at="2025-02-20T21:58:36 IST" duration-ms="5218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="validateAddItemStatusCode()[pri:2, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:36 IST" name="validateAddItemStatusCode" finished-at="2025-02-20T21:58:36 IST" depends-on-methods="api.test.BookerPositiveTests.testCreateBooking" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemStatusCode -->
+        <test-method signature="validateAddItemResponseTime()[pri:3, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:36 IST" name="validateAddItemResponseTime" finished-at="2025-02-20T21:58:36 IST" depends-on-methods="api.test.BookerPositiveTests.testCreateBooking" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemResponseTime -->
+        <test-method signature="validateContentTypeHeader()[pri:4, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:36 IST" name="validateContentTypeHeader" finished-at="2025-02-20T21:58:36 IST" depends-on-methods="api.test.BookerPositiveTests.testCreateBooking" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContentTypeHeader -->
+        <test-method signature="validateResponseBodyFields()[pri:5, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:36 IST" name="validateResponseBodyFields" finished-at="2025-02-20T21:58:36 IST" depends-on-methods="api.test.BookerPositiveTests.testCreateBooking" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBodyFields -->
+        <test-method signature="validateBookingDatesFormat()[pri:6, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:36 IST" name="validateBookingDatesFormat" finished-at="2025-02-20T21:58:36 IST" depends-on-methods="api.test.BookerPositiveTests.testCreateBooking" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBookingDatesFormat -->
+        <test-method signature="testGetBooking()[pri:7, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:36 IST" name="testGetBooking" finished-at="2025-02-20T21:58:37 IST" depends-on-methods="api.test.BookerPositiveTests.testCreateBooking" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+        <test-method signature="validateReadItemStatusCode()[pri:8, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:37 IST" name="validateReadItemStatusCode" finished-at="2025-02-20T21:58:37 IST" depends-on-methods="api.test.BookerPositiveTests.testGetBooking" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReadItemStatusCode -->
+        <test-method signature="validateReadItemResponseTime()[pri:9, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:37 IST" name="validateReadItemResponseTime" finished-at="2025-02-20T21:58:37 IST" depends-on-methods="api.test.BookerPositiveTests.testGetBooking" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReadItemResponseTime -->
+        <test-method signature="validatereadContentType()[pri:10, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:37 IST" name="validatereadContentType" finished-at="2025-02-20T21:58:37 IST" depends-on-methods="api.test.BookerPositiveTests.testGetBooking" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatereadContentType -->
+        <test-method signature="validatereadItesmBookingFields()[pri:11, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:37 IST" name="validatereadItesmBookingFields" finished-at="2025-02-20T21:58:38 IST" depends-on-methods="api.test.BookerPositiveTests.testGetBooking" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatereadItesmBookingFields -->
+        <test-method signature="validatereadItemDateFormat()[pri:12, instance:api.test.BookerPositiveTests@5ab14cb9]" started-at="2025-02-20T21:58:38 IST" name="validatereadItemDateFormat" finished-at="2025-02-20T21:58:38 IST" depends-on-methods="api.test.BookerPositiveTests.testGetBooking" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatereadItemDateFormat -->
+      </class> <!-- api.test.BookerPositiveTests -->
+    </test> <!-- BookerAPITest -->
+  </suite> <!-- BookerAPISuite -->
+</testng-results>
