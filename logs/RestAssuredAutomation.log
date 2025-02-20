@@ -81,3 +81,25 @@
 2025-02-20 23:02:23 [main] DEBUG BookerNegativeTests1 - Executing test case: missingFirstname
 2025-02-20 23:02:25 [main] DEBUG BookerNegativeTests1 - Executing test case: invalidPrice
 2025-02-20 23:02:26 [main] DEBUG BookerNegativeTests1 - Executing test case: invalidCheckinFormat
+2025-02-20 23:28:59 [main] DEBUG TestNG - suiteXmlPath: "C:\Users\kandr\eclipse-workspace2\API_Assignment_Dicetek_Intigral_Harikrishna_Kandra\testng.xml"
+2025-02-20 23:29:00 [main] DEBUG BookerPositiveTests - ********** Test Execution Started **********
+2025-02-20 23:29:00 [main] DEBUG BookerPositiveTests - Executing Test: testCreateBooking
+2025-02-20 23:29:00 [main] INFO  BookerPositiveTests - *********** Creating Booking Item *************
+2025-02-20 23:29:04 [main] DEBUG BookerPositiveTests - Booking created successfully. Booking ID: 4167
+2025-02-20 23:29:04 [main] DEBUG BookerPositiveTests - ==== Starting test: Get Booking Details ====
+2025-02-20 23:29:05 [main] DEBUG BookerPositiveTests - Booking details retrieved successfully for Booking ID: 4167
+2025-02-20 23:29:14 [main] DEBUG BookerNegativeTests1 - Starting API Negative Tests...
+2025-02-20 23:29:14 [main] DEBUG BookerNegativeTests1 - Executing test case: missingFirstname
+2025-02-20 23:29:15 [main] DEBUG BookerNegativeTests1 - Executing test case: invalidPrice
+2025-02-20 23:29:17 [main] DEBUG BookerNegativeTests1 - Executing test case: invalidCheckinFormat
+2025-02-20 23:58:44 [main] DEBUG TestNG - suiteXmlPath: "C:\Users\kandr\eclipse-workspace2\API_Assignment_Dicetek_Intigral_Harikrishna_Kandra\testng.xml"
+2025-02-20 23:58:45 [main] DEBUG BookerPositiveTests - ********** Test Execution Started **********
+2025-02-20 23:58:45 [main] DEBUG BookerPositiveTests - Executing Test: testCreateBooking
+2025-02-20 23:58:45 [main] INFO  BookerPositiveTests - *********** Creating Booking Item *************
+2025-02-20 23:58:49 [main] DEBUG BookerPositiveTests - Booking created successfully. Booking ID: 3941
+2025-02-20 23:58:50 [main] DEBUG BookerPositiveTests - ==== Starting test: Get Booking Details ====
+2025-02-20 23:58:51 [main] DEBUG BookerPositiveTests - Booking details retrieved successfully for Booking ID: 3941
+2025-02-20 23:59:00 [main] DEBUG BookerNegativeTests1 - Starting API Negative Tests...
+2025-02-20 23:59:00 [main] DEBUG BookerNegativeTests1 - Executing test case: missingFirstname
+2025-02-20 23:59:01 [main] DEBUG BookerNegativeTests1 - Executing test case: invalidPrice
+2025-02-20 23:59:03 [main] DEBUG BookerNegativeTests1 - Executing test case: invalidCheckinFormat
